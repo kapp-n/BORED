@@ -1,0 +1,25 @@
+h1 {
+    text-align: left;
+    color: #133337;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+#description {
+    text-align: left;
+    color: #bddc70;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#buttons {
+    border-style: solid;
+    border-radius: 15px 50px;
+    border-color: #ffcdc8;
+    border-width: 10px;
+    height: 115px;
+    width: 200px;
+}
