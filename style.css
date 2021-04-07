@@ -15,25 +15,17 @@ h1 {
     margin-bottom: 40px;
 }
 
-#buttonbox {
-    border-style: solid;
-    border-radius: 15px 50px;
-    border-color: #ffcdc8;
-    border-width: 10px;
-    height: 115px;
-    width: 200px;
-    margin-bottom: 40px;
-}
 
 #buttons {
     padding-top: 10px;
-    width: 180px;
+    width: 200px;
     text-align: center;
+    margin-bottom: 40px;
 
 }
 
 #or {
-    width: 180px;
+    width: 195px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#bddc70;
@@ -49,7 +41,15 @@ h1 {
 }
 
 hr {
-    border: 2px dotted;
+    border: 3px solid;
+    border-radius: 5px;
     color: #FFE4E2;
 }
 
+.button {  
+    border-radius: 12px;
+    background-color: #1d494e;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+}
