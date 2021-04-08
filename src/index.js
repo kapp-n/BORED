@@ -15,7 +15,7 @@ function randomize(){
         activities.innerHTML = `
         <li>Activity: ${activity.activity}</li>
         <li> Type: ${activity.type}</li>
-        <li> Particpants: ${activity.particpants}`
+        <li> Particpants: ${activity.particpants}</li>`
     })
 }
 
