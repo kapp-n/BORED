@@ -24,10 +24,10 @@ function randomize(){
 function getActivities(){
     let buttons = document.getElementById('buttons')
     buttons.innerHTML = ''
-    buttons.innerHTML += '<button class ="button">Recreational</button> <button class="button">Relaxation</button> <button class="button">Social</button> <button class="button">Music</button> <button class="button">Cooking</button> <button class="button">Education</button>'
+    buttons.innerHTML += '<select> <option value ="recreational">Recreational Activity</option><option value="education">Educational Acitvity</option><option value="relax">Relaxational Acitivity</option></select>'
     document.getElementsByClassName('button').addEventListener('click', randomActivity)
 }
 
-function randomActivity(){
-    
-}
+// function randomActivity(){
+//     switch(true)
+// }
