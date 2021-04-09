@@ -38,6 +38,7 @@ h1 {
     color:aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: none;
+    cursor: pointer;
 }
 
 hr {
@@ -46,12 +47,13 @@ hr {
     color: #FFE4E2;
 }
 
-.button {  
+input {  
     border-radius: 12px;
     background-color: #1d494e;
     color:aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: none;
+    
 }
 
 li{
@@ -61,3 +63,4 @@ li{
     font-size: 40px;
     color: #1d494e;
 }
+
