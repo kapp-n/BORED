@@ -4,9 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('type').addEventListener('click', getActivities)
     document.getElementById('random').addEventListener('click', randomize)
 })
+
+
 function randomize(){
     let buttons = document.getElementById('buttons')
-    buttons.innerHTML = ''
+    buttons.innerHTML = '<button id="random">Try Again!</button>'
+    buttons.addEventListener('click', randomize)
     let activities = document.getElementById('activity')
     fetch(BASE_URL + '/activity')
     .then(res => res.json())
