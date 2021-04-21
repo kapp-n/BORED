@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 
+
 function randomize(){
     let buttons = document.getElementById('buttons')
     buttons.innerHTML = '<button id="random">Try Again!</button>'
@@ -18,7 +19,8 @@ function randomize(){
         activities.innerHTML = `
         <li>Activity: ${activity.activity}</li>
         <li> Type: ${activity.type}</li>
-        <li> Particpants: ${activity.particpants}</li>`
+        <li> Participants: ${activity.participants}</li>
+        `
     })
 }
 
@@ -44,7 +46,8 @@ function getActivity(event){
             activities.innerHTML = `
             <li>Activity: ${activity.activity}</li>
             <li> Type: ${activity.type}</li>
-            <li> Particpants: ${activity.particpants}</li>`
+            <li> Participants: ${activity.participants}</li>
+            `
         })
     } else if (theActivity ==='education'){
         fetch(BASE_URL + '/activity?type=education')
@@ -52,9 +55,10 @@ function getActivity(event){
         .then(activity => {
             console.log(activity)
             activities.innerHTML = `
-            <li>Activity: ${activity.activity}</li>
-            <li> Type: ${activity.type}</li>
-            <li> Particpants: ${activity.particpants}</li>`
+        <li>Activity: ${activity.activity}</li>
+        <li> Type: ${activity.type}</li>
+        <li> Participants: ${activity.participants}</li>
+        `
         })
     } else {
         fetch(BASE_URL + '/activity?type=relaxation')
@@ -64,7 +68,8 @@ function getActivity(event){
             activities.innerHTML = `
             <li>Activity: ${activity.activity}</li>
             <li> Type: ${activity.type}</li>
-            <li> Particpants: ${activity.particpants}</li>`
+            <li> Participants: ${activity.participants}</li>
+           `
         })
     }
 }
